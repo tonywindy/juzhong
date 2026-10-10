@@ -1,0 +1,17 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.teleprompter'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.example.teleprompter'
+        minSdk 24
+        testInstrumentationRunner 'com.example.teleprompter.SmokeInstrumentation'
+        targetSdk 36
+        versionCode 4
+        versionName '1.3'
+    }
+}

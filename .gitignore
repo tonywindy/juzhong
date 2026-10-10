@@ -1,0 +1,30 @@
+# Local Android SDK and IDE settings
+local.properties
+.idea/
+*.iml
+.vscode/
+
+# Generated build files
+.gradle/
+**/build/
+.kotlin/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Signing material and credentials
+*.jks
+*.keystore
+key.properties
+keystore.properties
+.env
+.env.*
+
+# Installation packages are distributed through GitHub Releases
+*.apk
+*.aab
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
